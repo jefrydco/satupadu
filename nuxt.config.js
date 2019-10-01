@@ -27,6 +27,12 @@ export default {
     // https://pwa.nuxtjs.org/
     '@nuxtjs/pwa',
 
+    // https://github.com/nuxt-community/sitemap-module
+    '@nuxtjs/sitemap',
+
+    // https://github.com/nuxt-community/robots-module
+    '@nuxtjs/robots',
+
     // https://nuxt-community.github.io/nuxt-i18n/
     [
       'nuxt-i18n',
