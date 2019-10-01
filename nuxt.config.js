@@ -1,16 +1,21 @@
+import en from 'vuetify/es5/locale/en'
+import id from 'vuetify/es5/locale/id'
+
 const isDev = process.env.NODE_ENV !== 'production'
 
 export default {
   // https://nuxtjs.org/api/configuration-modern
   modern: !isDev,
 
+  mode: 'spa',
+
   // https://nuxtjs.org/api/configuration-head
   head: {
     titleTemplate(title) {
       if (title) {
-        return `${title} - Nuxt PWA Vuetify`
+        return `${title} - Satu Padu`
       }
-      return 'Nuxt PWA Vuetify'
+      return 'Satu Padu'
     }
   },
 
@@ -20,7 +25,36 @@ export default {
     '@nuxt/http',
 
     // https://pwa.nuxtjs.org/
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+
+    // https://nuxt-community.github.io/nuxt-i18n/
+    [
+      'nuxt-i18n',
+      {
+        vueI18n: {
+          silentTranslationWarn: true
+        },
+        defaultLocale: 'id',
+        vueI18nLoader: true,
+        lazy: true,
+        detectBrowserLanguage: false,
+        langDir: 'lang/',
+        locales: [
+          {
+            code: 'id',
+            iso: 'id-ID',
+            name: 'Indonesia',
+            file: 'id/index.js'
+          },
+          {
+            code: 'en',
+            iso: 'en-US',
+            name: 'English',
+            file: 'en/index.js'
+          }
+        ]
+      }
+    ]
 
     // https://github.com/nuxt-community/sentry-module
     // "@nuxtjs/sentry",
@@ -40,10 +74,51 @@ export default {
     '@nuxtjs/vuetify'
   ],
 
-  vuetify: {},
+  vuetify: {
+    theme: {
+      themes: {
+        light: {
+          primary: '#eb2227',
+          secondary: '#c32126'
+        }
+      }
+    },
+    lang: {
+      locales: { id, en },
+      current: 'id'
+    }
+  },
+
+  loading: {
+    color: '#eb2227',
+    height: '3px',
+    failedColor: '#931a1d'
+  },
+
+  meta: {
+    name: 'Satu Padu',
+    description:
+      'Satu Padu adalah sebuah inisiatif gerakan untuk mengakselerasi inovasi dan kontribusi dalam menciptakan perubahan dengan semangat gotong royong',
+    theme_color: '#fff',
+    ogHost: 'satupadu.org',
+    twitterCard: 'summary_large_image'
+    // twitterSite: '@rebloodnow',
+    // twitterCreator: '@leonikasari'
+  },
+
+  manifest: {
+    name: 'Satu Padu',
+    short_name: 'Satu Padu',
+    start_url: '/?utm_source=homescreen',
+    description:
+      'Satu Padu adalah sebuah inisiatif gerakan untuk mengakselerasi inovasi dan kontribusi dalam menciptakan perubahan dengan semangat gotong royong',
+    lang: 'id',
+    theme_color: '#fff',
+    background_color: '#fff'
+  },
 
   // https://nuxtjs.org/api/configuration-plugins
-  plugins: ['~plugins/vee-validate'],
+  plugins: ['~plugins/components'],
 
   // https://nuxtjs.org/api/configuration-css
   css: ['~assets/styles/app'],
