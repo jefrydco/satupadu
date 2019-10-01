@@ -48,7 +48,7 @@
     "lru-cache": "^5.1.1",
     "nuxt": "^2.3.4",
     "nuxt-i18n": "^6.3.0",
-    "vee-validate": "^2.1.5"
+    "vee-validate": "^3.0.8"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
