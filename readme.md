@@ -1,10 +1,6 @@
-# Nuxt PWA Vuetify Starter
+# Satu Padu
 
-[![CircleCI Build Status](https://badgen.net/circleci/github/jefrydco/nuxt-pwa-vuetify-starter/master)](https://circleci.com/gh/jefrydco/nuxt-pwa-vuetify-starter)
-[![Azure Build Status](https://dev.azure.com/jefrydco/jefrydco/_apis/build/status/jefrydco.nuxt-pwa-vuetify-starter)](https://dev.azure.com/jefrydco/jefrydco/_build?definitionId=1)
-[![Coverage Status](https://badgen.net/codecov/c/github/jefrydco/nuxt-pwa-vuetify-starter/master)](https://codecov.io/gh/jefrydco/nuxt-pwa-vuetify-starter)
-
-> Nuxt.js + PWA + Vuetify.js starter project
+> Satu Padu adalah sebuah inisiatif gerakan untuk mengakselerasi inovasi dan kontribusi dalam menciptakan perubahan dengan semangat gotong royong
 
 ## Features
 
