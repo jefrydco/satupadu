@@ -1,6 +1,6 @@
-# Satu Padu
+# Satupadu
 
-> The Satu Padu movement is an initative which seeks to accelerate practical innovation and contribution, to create change in the spirit of mutual cooperation.
+> The Satupadu Indonesia movement is an initative which seeks to accelerate practical innovation and contribution, to create change in the spirit of mutual cooperation.
 
 ## Features
 

@@ -13,9 +13,9 @@ export default {
   head: {
     titleTemplate(title) {
       if (title) {
-        return `${title} - Satu Padu`
+        return `${title} - Satupadu Indonesia`
       }
-      return 'Satu Padu'
+      return 'Satupadu Indonesia'
     }
   },
 
@@ -102,9 +102,9 @@ export default {
   },
 
   meta: {
-    name: 'Satu Padu',
+    name: 'Satupadu Indonesia',
     description:
-      'Satu Padu adalah sebuah inisiatif gerakan untuk mengakselerasi inovasi dan kontribusi dalam menciptakan perubahan dengan semangat gotong royong',
+      'Satupadu Indonesia adalah sebuah inisiatif gerakan untuk mengakselerasi inovasi dan kontribusi dalam menciptakan perubahan dengan semangat gotong royong',
     theme_color: '#fff',
     ogHost: 'satupadu.org',
     twitterCard: 'summary_large_image'
@@ -113,11 +113,11 @@ export default {
   },
 
   manifest: {
-    name: 'Satu Padu',
-    short_name: 'Satu Padu',
+    name: 'Satupadu Indonesia',
+    short_name: 'Satupadu Indonesia',
     start_url: '/?utm_source=homescreen',
     description:
-      'Satu Padu adalah sebuah inisiatif gerakan untuk mengakselerasi inovasi dan kontribusi dalam menciptakan perubahan dengan semangat gotong royong',
+      'Satupadu Indonesia adalah sebuah inisiatif gerakan untuk mengakselerasi inovasi dan kontribusi dalam menciptakan perubahan dengan semangat gotong royong',
     lang: 'id',
     theme_color: '#fff',
     background_color: '#fff'

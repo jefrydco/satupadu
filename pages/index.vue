@@ -7,7 +7,7 @@
     "slide2Bottom": "Percayalah bahwa niat tulus pasti akan diberikan jalannya",
     "slide3Top": "Sejarah mengajarkan bahwa anak muda merupakan elemen penting dalam setiap perubahan",
     "slide3Bottom": "Saat ini, Indonesia sedang membutuhkan kita. Sudah saatnya kita satu padu untuk mendedikasikan diri berkontribusi bagi ibu pertiwi",
-    "satuPadu": "Satu Padu merupakan sebuah inisiatif gerakan yang memiliki tujuan untuk dapat mengakselerasi inovasi dan kontribusi nyata dalam menciptakan perubahan dengan semangat gotong-royong bersama.",
+    "satuPadu": "Satupadu Indonesia merupakan sebuah inisiatif gerakan yang memiliki tujuan untuk dapat mengakselerasi inovasi dan kontribusi nyata dalam menciptakan perubahan dengan semangat gotong-royong bersama.",
     "sinergy": "Sinergi",
     "collaboration": "Kolaborasi",
     "inspirate": "Menginspirasi",
@@ -28,7 +28,7 @@
     "slide2Bottom": "Believe that sincere intentions will always find a way",
     "slide3Top": "History teaches us that the youth are always the vanguard of change",
     "slide3Bottom": "Right now, Indonesia needs us. It is time that we dedicate ourselves together to help our homeland",
-    "satuPadu": "The Satu Padu movement is an initative which seeks to accelerate practical innovation and contribution, to create change in the spirit of mutual cooperation.",
+    "satuPadu": "The Satupadu Indonesia movement is an initative which seeks to accelerate practical innovation and contribution, to create change in the spirit of mutual cooperation.",
     "sinergy": "Synergy",
     "collaboration": "Collaboration",
     "inspirate": "Inspire",
@@ -49,7 +49,7 @@
   <v-sheet flat="" tile="">
     <!-- Carousel -->
     <v-carousel id="home" cycle="">
-      <v-carousel-item src="/img/slides/slide-1.jpg" alt="Satu Padu Indonesia">
+      <v-carousel-item src="/img/slides/slide-1.jpg" alt="Satupadu Indonesia">
         <v-row
           class="fill-height white--text"
           align="end"
@@ -68,7 +68,7 @@
           </v-col>
         </v-row>
       </v-carousel-item>
-      <v-carousel-item src="/img/slides/slide-2.jpg" alt="Satu Padu Indonesia">
+      <v-carousel-item src="/img/slides/slide-2.jpg" alt="Satupadu Indonesia">
         <v-row
           class="fill-height white--text"
           align="end"
@@ -87,7 +87,7 @@
           </v-col>
         </v-row>
       </v-carousel-item>
-      <v-carousel-item src="/img/slides/slide-3.jpg" alt="Satu Padu Indonesia">
+      <v-carousel-item src="/img/slides/slide-3.jpg" alt="Satupadu Indonesia">
         <v-row
           class="fill-height white--text"
           align="end"
