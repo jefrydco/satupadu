@@ -33,27 +33,29 @@
       hide-on-scroll=""
     >
       <v-toolbar-title>
-        <v-card
-          color="transparent"
-          flat=""
-          nuxt=""
-          exact=""
-          to="/"
-          aria-label="Satu Padu Indonesia"
-        >
-          <v-img
-            src="/img/logo/satu-padu.png"
-            alt="Satu Padu Indonesia"
-            max-width="85"
-            contain=""
+        <h1>
+          <v-card
+            color="transparent"
+            flat=""
+            nuxt=""
+            exact=""
+            to="/"
+            aria-label="Satu Padu Indonesia"
           >
-            <template #placeholder="">
-              <v-row class="fill-height ma-0" align="center" justify="center">
-                <v-progress-circular indeterminate="" color="grey" />
-              </v-row>
-            </template>
-          </v-img>
-        </v-card>
+            <v-img
+              src="/img/logo/satu-padu.png"
+              alt="Satu Padu Indonesia"
+              max-width="85"
+              contain=""
+            >
+              <template #placeholder="">
+                <v-row class="fill-height ma-0" align="center" justify="center">
+                  <v-progress-circular indeterminate="" color="grey" />
+                </v-row>
+              </template>
+            </v-img>
+          </v-card>
+        </h1>
       </v-toolbar-title>
       <v-spacer />
       <v-toolbar-items class="py-5 hidden-sm-and-down">
