@@ -39,11 +39,11 @@
           nuxt=""
           exact=""
           to="/"
-          aria-label="Satu Padu"
+          aria-label="Satu Padu Indonesia"
         >
           <v-img
             src="/img/logo/satu-padu.png"
-            alt="Satu Padu"
+            alt="Satu Padu Indonesia"
             max-width="85"
             contain=""
           >
@@ -106,12 +106,12 @@
         nuxt=""
         exact=""
         to="/"
-        aria-label="Satu Padu"
+        aria-label="Satu Padu Indonesia"
       >
         <v-card-text>
           <app-img
             src="/img/logo/satu-padu.png"
-            alt="Satu Padu"
+            alt="Satu Padu Indonesia"
             max-width="85"
             max-height="50"
           />
@@ -134,12 +134,12 @@
     <v-footer id="contact" padless="">
       <v-row>
         <v-col cols="12" class="pa-0">
-          <v-card flat="" tile="">
+          <v-card dark="" flat="" tile="" color="secondary">
             <v-card-text>
               <v-row justify="center">
                 <div class="text-center">
                   <app-img
-                    src="/img/logo/satu-padu.png"
+                    src="/img/logo/satu-padu-white.png"
                     alt="Satu Padu Indonesia"
                     :width="300"
                   />

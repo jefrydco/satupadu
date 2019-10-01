@@ -1,7 +1,8 @@
 <i18n>
 {
   "id": {
-    "slide1": "Tergerakah hati Anda ketika melihat permasalahan di Indonesia?",
+    "slide1Top": "Tergerakah hati Anda ketika melihat permasalahan di Indonesia?",
+    "slide1Bottom": "Ingin berkontribusi, namun bingung dengan cara apa?",
     "slide2Top": "\"Be the change you want to see in the world\" - Mahatma Gandhi",
     "slide2Bottom": "Percayalah bahwa niat tulus pasti akan diberikan jalannya",
     "slide3Top": "Sejarah mengajarkan bahwa anak muda merupakan elemen penting dalam setiap perubahan",
@@ -21,24 +22,25 @@
     "collaborationPartner": "Mitra Kolaborasi"
   },
   "en": {
-    "slide1": "Tergerakah hati Anda ketika melihat permasalahan di Indonesia?",
+    "slide1Top": "Is your heart moved when you witness Indonesia's troubles?",
+    "slide1Bottom": "Do you want to be part of the solution, but are confused: in what way?",
     "slide2Top": "\"Be the change you want to see in the world\" - Mahatma Gandhi",
-    "slide2Bottom": "Percayalah bahwa niat tulus pasti akan diberikan jalannya",
-    "slide3Top": "Sejarah mengajarkan bahwa anak muda merupakan elemen penting dalam setiap perubahan",
-    "slide3Bottom": "Saat ini, Indonesia sedang membutuhkan kita. Sudah saatnya kita satu padu untuk mendedikasikan diri berkontribusi bagi ibu pertiwi",
-    "satuPadu": "Satu Padu merupakan sebuah inisiatif gerakan yang memiliki tujuan untuk dapat mengakselerasi inovasi dan kontribusi nyata dalam menciptakan perubahan dengan semangat gotong-royong bersama.",
-    "sinergy": "Sinergi",
-    "collaboration": "Kolaborasi",
-    "inspirate": "Menginspirasi",
+    "slide2Bottom": "Believe that sincere intentions will always find a way",
+    "slide3Top": "History teaches us that the youth are always the vanguard of change",
+    "slide3Bottom": "Right now, Indonesia needs us. It is time that we dedicate ourselves together to help our homeland",
+    "satuPadu": "The Satu Padu movement is an initative which seeks to accelerate practical innovation and contribution, to create change in the spirit of mutual cooperation.",
+    "sinergy": "Synergy",
+    "collaboration": "Collaboration",
+    "inspirate": "Inspire",
     "programs": "Our Programs",
     "satuLidi": "#SatupaduLiDigital",
     "satuIbu": "#SatuIbuSatuPohon",
     "satuDesa": "#SatuDesaSatuWebsite",
-    "weBelieveTop": "Kami percaya, bahwa masih banyak orang yang ingin berkontribusi bagi negeri ini.",
-    "weBelieveBottom": "Mari bergabung dengan #GerakanSatuPaduIndonesia dengan cara:",
-    "donation": "Donasi",
-    "volunteer": "Relawan",
-    "collaborationPartner": "Mitra Kolaborasi"
+    "weBelieveTop": "We believe that many people want to be part of the solution to our homeland's troubles.",
+    "weBelieveBottom": "Let's contribute to the #GerakanSatuPaduIndonesia movement by:",
+    "donation": "Donate",
+    "volunteer": "Volunteer",
+    "collaborationPartner": "Collaboration Partners"
   }
 }
 </i18n>
@@ -47,7 +49,7 @@
   <v-sheet flat="" tile="">
     <!-- Carousel -->
     <v-carousel id="home" cycle="">
-      <v-carousel-item src="/img/slides/slide-1.jpg" alt="Satu Padu">
+      <v-carousel-item src="/img/slides/slide-1.jpg" alt="Satu Padu Indonesia">
         <v-row
           class="fill-height white--text"
           align="end"
@@ -57,13 +59,16 @@
           <v-col cols="9">
             <div class="text-center" style="margin-bottom: 72px">
               <h2 class="heading">
-                {{ $t('slide1') }}
+                {{ $t('slide1Top') }}
               </h2>
+              <h3 class="title">
+                {{ $t('slide1Bottom') }}
+              </h3>
             </div>
           </v-col>
         </v-row>
       </v-carousel-item>
-      <v-carousel-item src="/img/slides/slide-2.jpg" alt="Satu Padu">
+      <v-carousel-item src="/img/slides/slide-2.jpg" alt="Satu Padu Indonesia">
         <v-row
           class="fill-height white--text"
           align="end"
@@ -72,21 +77,17 @@
         >
           <v-col cols="9">
             <div class="text-center" style="margin-bottom: 72px">
-              <h2
-                :class="
-                  $vuetify.breakpoint.mdAndDown ? 'headline' : 'display-1'
-                "
-              >
+              <h2 class="heading">
                 {{ $t('slide2Top') }}
               </h2>
-              <h2 class="heading">
+              <h2 class="title">
                 {{ $t('slide2Bottom') }}
               </h2>
             </div>
           </v-col>
         </v-row>
       </v-carousel-item>
-      <v-carousel-item src="/img/slides/slide-3.jpg" alt="Satu Padu">
+      <v-carousel-item src="/img/slides/slide-3.jpg" alt="Satu Padu Indonesia">
         <v-row
           class="fill-height white--text"
           align="end"
@@ -185,16 +186,10 @@
               <v-row justify="center">
                 <v-col cols="12" md="3">
                   <v-card light="" ripple="">
-                    <v-card-text>
-                      <div class="text-center">
-                        <v-avatar :size="150">
-                          <app-img
-                            src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-300.png"
-                            :alt="$t('satuIbu')"
-                          />
-                        </v-avatar>
-                      </div>
-                    </v-card-text>
+                    <app-img
+                      src="/img/programs/satupadu-li-digital.jpg"
+                      :alt="$t('satuLidi')"
+                    />
                     <v-card-text>
                       <div class="text-center">
                         <h2
@@ -212,16 +207,10 @@
                 </v-col>
                 <v-col cols="12" md="3">
                   <v-card light="" ripple="">
-                    <v-card-text>
-                      <div class="text-center">
-                        <v-avatar :size="150">
-                          <app-img
-                            src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-300.png"
-                            :alt="$t('satuIbu')"
-                          />
-                        </v-avatar>
-                      </div>
-                    </v-card-text>
+                    <app-img
+                      src="/img/programs/satu-ibu-satu-pohon.jpg"
+                      :alt="$t('satuIbu')"
+                    />
                     <v-card-text>
                       <div class="text-center">
                         <h2
@@ -239,16 +228,10 @@
                 </v-col>
                 <v-col cols="12" md="3">
                   <v-card light="" ripple="">
-                    <v-card-text>
-                      <div class="text-center">
-                        <v-avatar :size="150">
-                          <app-img
-                            src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-300.png"
-                            :alt="$t('satuDesa')"
-                          />
-                        </v-avatar>
-                      </div>
-                    </v-card-text>
+                    <app-img
+                      src="/img/programs/satu-desa-satu-website.jpg"
+                      :alt="$t('satuDesa')"
+                    />
                     <v-card-text>
                       <div class="text-center">
                         <h2
@@ -305,11 +288,11 @@
       </v-row>
     </app-img>
     <!-- Collaboration Partner -->
-    <v-card id="partner" flat="" tile="" color="secondary" dark="">
+    <v-card id="partner" flat="" tile="">
       <v-responsive :aspect-ratio="2.5">
         <v-card-text class="fill-height">
           <v-row class="fill-height" align="center" justify="center">
-            <v-col cols="12" md="8">
+            <v-col cols="12">
               <div class="text-center mb-5">
                 <h2 class="heading">{{ $t('collaborationPartner') }}</h2>
               </div>
@@ -317,10 +300,11 @@
                 <v-col cols="12" md="2">
                   <v-tooltip bottom="">
                     <template #activator="{ on }">
-                      <v-card ripple="" light="" v-on="on">
+                      <v-card ripple="" flat="" tile="" light="" v-on="on">
                         <app-img
-                          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-300.png"
-                          alt=""
+                          :height="150"
+                          src="/img/partners/kantor-staf-presiden.png"
+                          alt="Kantor Staf Presiden"
                         />
                       </v-card>
                     </template>
@@ -330,23 +314,11 @@
                 <v-col cols="12" md="2">
                   <v-tooltip bottom="">
                     <template #activator="{ on }">
-                      <v-card ripple="" light="" v-on="on">
+                      <v-card ripple="" flat="" tile="" light="" v-on="on">
                         <app-img
-                          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-300.png"
-                          alt=""
-                        />
-                      </v-card>
-                    </template>
-                    <span>UNDP</span>
-                  </v-tooltip>
-                </v-col>
-                <v-col cols="12" md="2">
-                  <v-tooltip bottom="">
-                    <template #activator="{ on }">
-                      <v-card ripple="" light="" v-on="on">
-                        <app-img
-                          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-300.png"
-                          alt=""
+                          :height="150"
+                          src="/img/partners/google.png"
+                          alt="Google"
                         />
                       </v-card>
                     </template>
@@ -356,10 +328,11 @@
                 <v-col cols="12" md="2">
                   <v-tooltip bottom="">
                     <template #activator="{ on }">
-                      <v-card ripple="" light="" v-on="on">
+                      <v-card ripple="" flat="" tile="" light="" v-on="on">
                         <app-img
-                          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-300.png"
-                          alt=""
+                          :height="150"
+                          src="/img/partners/kitabisa.png"
+                          alt="Kitabisa"
                         />
                       </v-card>
                     </template>
@@ -369,14 +342,29 @@
                 <v-col cols="12" md="2">
                   <v-tooltip bottom="">
                     <template #activator="{ on }">
-                      <v-card ripple="" light="" v-on="on">
+                      <v-card ripple="" flat="" tile="" light="" v-on="on">
                         <app-img
-                          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-300.png"
-                          alt=""
+                          :height="150"
+                          src="/img/partners/diaspora-connect.png"
+                          alt="Diaspora Connect"
                         />
                       </v-card>
                     </template>
                     <span>Diaspora Connect</span>
+                  </v-tooltip>
+                </v-col>
+                <v-col cols="12" md="2">
+                  <v-tooltip bottom="">
+                    <template #activator="{ on }">
+                      <v-card ripple="" flat="" tile="" light="" v-on="on">
+                        <app-img
+                          :height="150"
+                          src="/img/partners/undp.png"
+                          alt="UNDP"
+                        />
+                      </v-card>
+                    </template>
+                    <span>UNDP</span>
                   </v-tooltip>
                 </v-col>
               </v-row>
