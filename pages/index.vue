@@ -22,7 +22,7 @@
     "collaborationPartner": "Mitra Kolaborasi"
   },
   "en": {
-    "slide1Top": "Is your heart moved when you witness Indonesia's troubles?",
+    "slide1Top": "Is your heart moved when you witness Indonesia's problems?",
     "slide1Bottom": "Do you want to be part of the solution, but are confused: in what way?",
     "slide2Top": "\"Be the change you want to see in the world\" - Mahatma Gandhi",
     "slide2Bottom": "Believe that sincere intentions will always find a way",
@@ -36,8 +36,8 @@
     "satuLidi": "#SatupaduLiDigital",
     "satuIbu": "#SatuIbuSatuPohon",
     "satuDesa": "#SatuDesaSatuWebsite",
-    "weBelieveTop": "We believe that many people want to be part of the solution to our homeland's troubles.",
-    "weBelieveBottom": "Let's contribute to the #GerakanSatuPaduIndonesia movement by:",
+    "weBelieveTop": "We believe that many people want to be part of the solution to our country's.",
+    "weBelieveBottom": "Let's contribute to the #GerakanSatuPaduIndonesia by:",
     "donation": "Donate",
     "volunteer": "Volunteer",
     "collaborationPartner": "Collaboration Partners"
@@ -289,7 +289,7 @@
     </app-img>
     <!-- Collaboration Partner -->
     <v-card id="partner" flat="" tile="">
-      <v-responsive :aspect-ratio="2.5">
+      <v-responsive :aspect-ratio="4">
         <v-card-text class="fill-height">
           <v-row class="fill-height" align="center" justify="center">
             <v-col cols="12">

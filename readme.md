@@ -1,6 +1,6 @@
 # Satu Padu
 
-> Satu Padu adalah sebuah inisiatif gerakan untuk mengakselerasi inovasi dan kontribusi dalam menciptakan perubahan dengan semangat gotong royong
+> The Satu Padu movement is an initative which seeks to accelerate practical innovation and contribution, to create change in the spirit of mutual cooperation.
 
 ## Features
 
