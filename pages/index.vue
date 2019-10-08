@@ -108,7 +108,14 @@
           style="background-color: rgba(0, 0, 0, .5)"
         >
           <v-col cols="9">
-            <div class="text-center" style="margin-bottom: 116px">
+            <div
+              class="text-center"
+              :style="
+                $vuetify.breakpoint.mdAndDown
+                  ? { marginBottom: '30px' }
+                  : { marginBottom: '116px' }
+              "
+            >
               <h2 class="display-1">
                 {{ $t('slide3Top') }}
               </h2>
