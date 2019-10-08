@@ -3,13 +3,14 @@
   "id": {
     "slide1Top": "Tergerakah hati Anda ketika melihat permasalahan di Indonesia?",
     "slide1Bottom": "Ingin berkontribusi, namun bingung dengan cara apa?",
-    "slide2Top": "Sejarah mengajarkan bahwa anak muda merupakan elemen penting dalam setiap perubahan",
-    "slide2Bottom": "Saat ini Indonesia sedang membutuhkan kita. Percayalah, bahwa niat tulus pasti akan diberikan jalannya",
-    "slide3Top": "Selamat datang di Satupadu Indonesia, sebuah gerakan yang diinisiasi melalui semangat dan dedikasi tulus pada ibu pertiwi",
-    "slide3Bottom": "Kami memanggil orang-orang yang percaya terhadap kekuatan kolaborasi, untuk bersama melakukan aksi nyata berkontribusi bagi negeri ini",
+    "slide2Top": "Sejarah mengajarkan bahwa anak muda merupakan elemen penting dalam setiap perubahan.",
+    "slide2Bottom": "Saat ini Indonesia sedang membutuhkan kita. Percayalah, bahwa niat tulus pasti akan diberikan jalannya.",
+    "slide3Top": "Selamat datang di Satupadu Indonesia",
+    "slide3Middle": "Sebuah gerakan yang diinisiasi melalui semangat dan dedikasi tulus pada ibu pertiwi.",
+    "slide3Bottom": "Kami memanggil orang-orang yang percaya terhadap kekuatan kolaborasi, untuk bersama melakukan aksi nyata berkontribusi bagi negeri.",
     "satuPadu": "Satupadu Indonesia merupakan sebuah inisiatif gerakan yang memiliki tujuan untuk dapat mengakselerasi inovasi dan kontribusi nyata dalam menciptakan perubahan dengan semangat gotong-royong bersama.",
     "satuPaduImplementation": "Dalam implementasinya, Satupadu akan mengedepankan pada misi:",
-    "implementation1": "Menghadirkan solusi sekaligus mengeksekusi",
+    "implementation1": "Menghadirkan solusi sekaligus mengeksekusi permasalahan yang berkembang di masyarakat.",
     "implementation2": "Berkontribusi dalam merealisasikan program-program prioritas pada pemberdayaan dan pembangunan berkelanjutan di Indonesia",
     "implementation3": "Meningkatkan partisipasi dan kesadaran masyarakat khususnya generasi muda untuk bergotong-royong melakukan perubahan bersama.",
     "satuPaduPunchline": "Melalui nilai-nilai yang terkandung dalam Satupadu, diharapkan <strong>Sinergi</strong> dan <strong>Kolaborasi</strong> yang kita kerjakan dapat <strong>Menginspirasi</strong> lebih banyak orang lagi untuk berbuat baik dan berkontribusi bagi negeri ini.",
@@ -21,7 +22,7 @@
     "satuIbu": "#SatuIbuSatuPohon",
     "satuDesa": "#SatupaduTerangiDesa",
     "weBelieveTop": "Kami percaya, bahwa masih banyak orang yang ingin berkontribusi bagi negeri ini.",
-    "weBelieveBottom": "Mari bergabung dengan #GerakanSatuPaduIndonesia dengan cara:",
+    "weBelieveBottom": "Mari bergabung dengan #GerakanSatupaduIndonesia dengan cara:",
     "donation": "Donasi",
     "volunteer": "Relawan",
     "collaborationPartner": "Mitra Kolaborasi"
@@ -29,16 +30,17 @@
   "en": {
     "slide1Top": "Is your heart moved when you witness Indonesia's problems?",
     "slide1Bottom": "Do you want to be part of the solution, but are confused: in what way?",
-    "slide2Top": "Sejarah mengajarkan bahwa anak muda merupakan elemen penting dalam setiap perubahan",
-    "slide2Bottom": "Saat ini Indonesia sedang membutuhkan kita. Percayalah, bahwa niat tulus pasti akan diberikan jalannya",
-    "slide3Top": "Selamat datang di Satupadu Indonesia, sebuah gerakan yang diinisiasi melalui semangat dan dedikasi tulus pada ibu pertiwi",
-    "slide3Bottom": "Kami memanggil orang-orang yang percaya terhadap kekuatan kolaborasi, untuk bersama melakukan aksi nyata berkontribusi bagi negeri ini",
+    "slide2Top": "Sejarah mengajarkan bahwa anak muda merupakan elemen penting dalam setiap perubahan.",
+    "slide2Bottom": "Saat ini Indonesia sedang membutuhkan kita. Percayalah, bahwa niat tulus pasti akan diberikan jalannya.",
+    "slide3Top": "Selamat datang di Satupadu Indonesia",
+    "slide3Middle": "Sebuah gerakan yang diinisiasi melalui semangat dan dedikasi tulus pada ibu pertiwi.",
+    "slide3Bottom": "Kami memanggil orang-orang yang percaya terhadap kekuatan kolaborasi, untuk bersama melakukan aksi nyata berkontribusi bagi negeri.",
     "satuPadu": "The Satupadu Indonesia movement is an initative which seeks to accelerate practical innovation and contribution, to create change in the spirit of mutual cooperation.",
     "satuPaduImplementation": "Dalam implementasinya, Satupadu akan mengedepankan pada misi:",
-    "implementation1": "permasalahan yang berkembang di masyarakat.",
+    "implementation1": "Menghadirkan solusi sekaligus mengeksekusi permasalahan yang berkembang di masyarakat.",
     "implementation2": "Berkontribusi dalam merealisasikan program-program prioritas pada pemberdayaan dan pembangunan berkelanjutan di Indonesia",
     "implementation3": "Meningkatkan partisipasi dan kesadaran masyarakat khususnya generasi muda untuk bergotong-royong melakukan perubahan bersama.",
-    "satuPaduPunchline": "Melalui nilai-nilai yang terkandung dalam Satupadu, diharapkan <strong>Sinergi</strong> dan <strong>Kolaborasi</strong> yang kita kerjakan dapat <strong>Menginspirasi</strong> lebih banyak orang lagi untuk berbuat baik dan berkontribusi bagi negeri ini.",
+    "satuPaduPunchline": "Melalui nilai-nilai yang terkandung dalam Satupadu, diharapkan <strong>Sinergi</strong> dan <strong>Kolaborasi</strong> yang kita kerjakan dapat <strong>Menginspirasi</strong> lebih banyak orang lagi untuk berbuat baik dan berkontribusi bagi negeri.",
     "sinergy": "Synergy",
     "collaboration": "Collaboration",
     "inspirate": "Inspire",
@@ -47,7 +49,7 @@
     "satuIbu": "#SatuIbuSatuPohon",
     "satuDesa": "#SatupaduTerangiDesa",
     "weBelieveTop": "We believe that many people want to be part of the solution to our country's.",
-    "weBelieveBottom": "Let's contribute to the #GerakanSatuPaduIndonesia by:",
+    "weBelieveBottom": "Let's contribute to the #GerakanSatupaduIndonesia by:",
     "donation": "Donate",
     "volunteer": "Volunteer",
     "collaborationPartner": "Collaboration Partners"
@@ -72,7 +74,7 @@
               <h2 class="headline">
                 {{ $t('slide1Top') }}
               </h2>
-              <h3 class="title">
+              <h3 class="subtitle-1">
                 {{ $t('slide1Bottom') }}
               </h3>
             </div>
@@ -91,9 +93,9 @@
               <h2 class="headline">
                 {{ $t('slide2Top') }}
               </h2>
-              <h2 class="title">
+              <h3 class="subtitle-1">
                 {{ $t('slide2Bottom') }}
-              </h2>
+              </h3>
             </div>
           </v-col>
         </v-row>
@@ -106,11 +108,16 @@
           style="background-color: rgba(0, 0, 0, .5)"
         >
           <v-col cols="9">
-            <div class="text-center" style="margin-bottom: 72px">
-              <h2 class="headline">
+            <div class="text-center" style="margin-bottom: 116px">
+              <h2 class="display-1">
                 {{ $t('slide3Top') }}
               </h2>
-              <h3 class="title">
+            </div>
+            <div class="text-center" style="margin-bottom: 72px">
+              <h2 class="headline">
+                {{ $t('slide3Middle') }}
+              </h2>
+              <h3 class="subtitle-1">
                 {{ $t('slide3Bottom') }}
               </h3>
             </div>
@@ -161,14 +168,14 @@
                       </v-col>
                     </v-row>
                     <v-row>
-                      <v-col cols="12" md="6">
+                      <v-col cols="12" md="8">
                         <ol class="title">
                           <li>{{ $t('implementation1') }}</li>
                           <li>{{ $t('implementation2') }}</li>
                           <li>{{ $t('implementation3') }}</li>
                         </ol>
                       </v-col>
-                      <v-col cols="12" md="6">
+                      <v-col cols="12" md="4">
                         <v-row justify="center">
                           <v-col cols="12" md="6">
                             <v-card dark="" color="secondary" ripple="">
@@ -180,7 +187,7 @@
                                     justify="center"
                                   >
                                     <div class="text-center">
-                                      <h3 class="headline">
+                                      <h3 class="subtitle-1">
                                         {{ $t('sinergy') }}
                                       </h3>
                                     </div>
@@ -199,7 +206,7 @@
                                     justify="center"
                                   >
                                     <div class="text-center">
-                                      <h3 class="headline">
+                                      <h3 class="subtitle-1">
                                         {{ $t('collaboration') }}
                                       </h3>
                                     </div>
@@ -218,7 +225,7 @@
                                     justify="center"
                                   >
                                     <div class="text-center">
-                                      <h3 class="headline">
+                                      <h3 class="subtitle-1">
                                         {{ $t('inspirate') }}
                                       </h3>
                                     </div>
@@ -303,7 +310,7 @@
                 <v-col cols="12" md="3">
                   <v-card light="" ripple="">
                     <app-img
-                      src="/img/programs/satu-desa-satu-website.jpg"
+                      src="/img/programs/satupadu-terangi-desa.jpg"
                       :alt="$t('satuDesa')"
                     />
                     <v-card-text>
