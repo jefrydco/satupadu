@@ -42,7 +42,7 @@
             to="/"
             aria-label="Satu Padu Indonesia"
           >
-            <v-img
+            <app-img
               src="/img/logo/satu-padu.png"
               alt="Satu Padu Indonesia"
               max-width="85"
@@ -53,7 +53,7 @@
                   <v-progress-circular indeterminate="" color="grey" />
                 </v-row>
               </template>
-            </v-img>
+            </app-img>
           </v-card>
         </h1>
       </v-toolbar-title>
