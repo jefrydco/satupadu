@@ -43,9 +43,9 @@
             aria-label="Satu Padu Indonesia"
           >
             <app-img
-              src="/img/logo/satu-padu.png"
+              src="/img/logo/satupadu-logo-only.png"
               alt="Satu Padu Indonesia"
-              max-width="85"
+              max-width="40"
               contain=""
             >
               <template #placeholder="">
@@ -112,7 +112,7 @@
       >
         <v-card-text>
           <app-img
-            src="/img/logo/satu-padu.png"
+            src="/img/logo/satupadu.png"
             alt="Satu Padu Indonesia"
             max-width="85"
             max-height="50"
@@ -141,7 +141,7 @@
               <v-row justify="center">
                 <div class="text-center">
                   <app-img
-                    src="/img/logo/satu-padu-white.png"
+                    src="/img/logo/satupadu-white.png"
                     alt="Satu Padu Indonesia"
                     :width="300"
                   />

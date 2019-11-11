@@ -19,12 +19,13 @@
     "inspirate": "Menginspirasi",
     "programs": "Program Kami",
     "satuLidi": "#SatupaduLiDigital",
-    "satuIbu": "#SatuIbuSatuPohon",
+    "satuWarnaSekolah": "#SatupaduWarnaiSekolah",
     "satuDesa": "#SatupaduTerangiDesa",
     "weBelieveTop": "Kami percaya, bahwa masih banyak orang yang ingin berkontribusi bagi negeri ini.",
-    "weBelieveBottom": "Mari bergabung dengan #GerakanSatupaduIndonesia dengan cara:",
-    "donation": "Donasi",
-    "volunteer": "Relawan",
+    "weBelieveBottom": "Mari ikut serta berkontribusi bersama Satupadu dengan cara:",
+    "donation": "Berdonasi",
+    "volunteer": "Menjadi Relawan",
+    "mitra": "Mitra CSR",
     "collaborationPartner": "Mitra Kolaborasi"
   },
   "en": {
@@ -46,12 +47,13 @@
     "inspirate": "Inspire",
     "programs": "Our Programs",
     "satuLidi": "#SatupaduLiDigital",
-    "satuIbu": "#SatuIbuSatuPohon",
+    "satuWarnaSekolah": "#SatupaduWarnaiSekolah",
     "satuDesa": "#SatupaduTerangiDesa",
     "weBelieveTop": "We believe that many people want to be part of the solution to our country's.",
-    "weBelieveBottom": "Let's contribute to the #GerakanSatupaduIndonesia by:",
+    "weBelieveBottom": "Let's contribute with Satupadu by:",
     "donation": "Donate",
-    "volunteer": "Volunteer",
+    "volunteer": "Become a Volunteer",
+    "mitra": "CSR Mitra",
     "collaborationPartner": "Collaboration Partners"
   }
 }
@@ -61,7 +63,7 @@
   <!-- eslint-disable vue/no-v-html -->
   <v-sheet flat="" tile="">
     <!-- Carousel -->
-    <v-carousel id="home" cycle="">
+    <v-carousel id="home" cycle="" :interval="12000" progress="">
       <v-carousel-item src="/img/slides/slide-1.jpg" alt="Satupadu Indonesia">
         <v-row
           class="fill-height white--text"
@@ -141,7 +143,7 @@
               <v-row justify="center">
                 <app-img
                   :height="136"
-                  src="/img/logo/satu-padu.png"
+                  src="/img/logo/satupadu.png"
                   alt="Satu Padu Indonesia"
                   class="mb-5"
                 />
@@ -296,8 +298,8 @@
                 <v-col cols="12" md="3">
                   <v-card light="" ripple="">
                     <app-img
-                      src="/img/programs/satu-ibu-satu-pohon.jpg"
-                      :alt="$t('satuIbu')"
+                      src="/img/programs/satupadu-warnai-sekolah.jpg"
+                      :alt="$t('satuWarnaSekolah')"
                     />
                     <v-card-text>
                       <div class="text-center">
@@ -308,7 +310,7 @@
                               : 'headline'
                           "
                         >
-                          {{ $t('satuIbu') }}
+                          {{ $t('satuWarnaSekolah') }}
                         </h2>
                       </div>
                     </v-card-text>
@@ -365,6 +367,9 @@
                       </v-btn>
                       <v-btn class="mx-3" large="" color="primary">
                         {{ $t('volunteer') }}
+                      </v-btn>
+                      <v-btn class="mx-3" large="" color="primary">
+                        {{ $t('mitra') }}
                       </v-btn>
                     </div>
                   </v-col>
