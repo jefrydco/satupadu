@@ -112,7 +112,7 @@ export default {
   meta: {
     name: 'Satupadu Indonesia',
     description:
-      'Satupadu Indonesia adalah sebuah inisiatif gerakan untuk mengakselerasi inovasi dan kontribusi dalam menciptakan perubahan dengan semangat gotong royong',
+      'Satupadu Indonesia merupakan sebuah inisiatif gerakan yang bertujuan merangkul keinginan generasi muda dalam mewujudkan aksi nyata untuk mendukung pembangunan berkelanjutan.',
     theme_color: '#fff',
     ogHost: 'satupadu.org',
     twitterCard: 'summary_large_image'
@@ -125,7 +125,7 @@ export default {
     short_name: 'Satupadu Indonesia',
     start_url: '/?utm_source=homescreen',
     description:
-      'Satupadu Indonesia adalah sebuah inisiatif gerakan untuk mengakselerasi inovasi dan kontribusi dalam menciptakan perubahan dengan semangat gotong royong',
+      'Satupadu Indonesia merupakan sebuah inisiatif gerakan yang bertujuan merangkul keinginan generasi muda dalam mewujudkan aksi nyata untuk mendukung pembangunan berkelanjutan.',
     lang: 'id',
     theme_color: '#fff',
     background_color: '#fff'
