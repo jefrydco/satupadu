@@ -79,6 +79,10 @@ export default {
     baseURL: 'https://satupadu.org/news'
   },
 
+  sitemap: {
+    hostname: 'https://satupadu.org'
+  },
+
   buildModules: [
     // Simple usage
     '@nuxtjs/vuetify'
