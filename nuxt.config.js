@@ -27,9 +27,6 @@ export default {
     // https://pwa.nuxtjs.org/
     '@nuxtjs/pwa',
 
-    // https://github.com/nuxt-community/sitemap-module
-    '@nuxtjs/sitemap',
-
     // https://github.com/nuxt-community/robots-module
     '@nuxtjs/robots',
 
@@ -60,7 +57,10 @@ export default {
           }
         ]
       }
-    ]
+    ],
+    
+    // https://github.com/nuxt-community/sitemap-module
+    '@nuxtjs/sitemap'
 
     // https://github.com/nuxt-community/sentry-module
     // "@nuxtjs/sentry",
@@ -87,6 +87,10 @@ export default {
     // Simple usage
     '@nuxtjs/vuetify'
   ],
+  
+  sitemap: {
+    hostname: 'https://satupadu.org'
+  },
 
   vuetify: {
     theme: {
