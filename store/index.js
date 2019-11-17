@@ -1,25 +1,26 @@
 export const types = {
-  SET_EXAMPLE_STATE: 'SET_EXAMPLE_STATE'
+  SET_POSTS: 'SET_POSTS'
 }
 
 export const state = () => ({
-  exampleState: null
+  posts: []
 })
 
-export const getters = {
-  getExampleState(state) {
-    return state.exampleState
-  }
-}
-
 export const mutations = {
-  [types.SET_EXAMPLE_STATE](state, payload) {
-    state.exampleState = payload
+  [types.SET_POSTS](state, posts) {
+    state.posts = posts
   }
 }
 
 export const actions = {
-  [types.SET_EXAMPLE_STATE]({ commit }, payload) {
-    commit(types.SET_EXAMPLE_STATE, payload)
+  async getPosts({ commit }) {
+    try {
+      const posts = await this.$http.$get(
+        'wp-json/wp/v2/posts?_embed&per_page=8'
+      )
+      commit(types.SET_POSTS, posts)
+    } catch (error) {
+      console.log(error)
+    }
   }
 }

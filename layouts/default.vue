@@ -5,6 +5,7 @@
     "about": "Tentang",
     "programs": "Program Kami",
     "contact": "Hubungi",
+    "news": "Berita",
     "language": "Bahasa",
     "indonesian": "Bahasa Indonesia",
     "english": "Bahasa Inggris",
@@ -15,6 +16,7 @@
     "about": "About",
     "programs": "Our Programs",
     "contact": "Contact",
+    "news": "News",
     "language": "Language",
     "indonesian": "Indonesian",
     "english": "English",
@@ -213,7 +215,7 @@ export default {
         { text: 'indonesian', value: 'id' },
         { text: 'english', value: 'en' }
       ],
-      menus: ['home', 'about', 'programs', 'contact']
+      menus: ['home', 'about', 'programs', 'news', 'contact']
     }
   }
 }

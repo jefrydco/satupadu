@@ -75,6 +75,10 @@ export default {
     // ]
   ],
 
+  http: {
+    baseURL: 'https://satupadu.org/news'
+  },
+
   buildModules: [
     // Simple usage
     '@nuxtjs/vuetify'
